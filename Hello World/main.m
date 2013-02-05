@@ -6,16 +6,14 @@
 //  Copyright (c) 2013 William Short. All rights reserved.
 //
 
+#import <stdio.h>
 #import <Foundation/Foundation.h>
 
-int main(int argc, const char * argv[])
+int main(void)
 {
-
-    @autoreleasepool {
-        
-        // insert code here...
+    @autoreleasepool
+    {
         NSLog(@"Hello, World!");
-        
     }
     return 0;
 }
